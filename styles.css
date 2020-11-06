@@ -1,0 +1,47 @@
+body{
+     background-color: #FFC0CB;/*колір фона*/
+   }
+   hr{
+border-style: none;
+border-top-style: dashed;
+border-color: magenta;
+border-width: 5px;
+width: 10%;
+}
+
+h1{
+color: #of4c75;
+}
+
+h3{
+color: #of4c75;
+}
+.redh3{
+  color:red;
+}
+.greenh3{
+  color:pink;
+border-color: pink;
+}
+#dotted{
+  dotted-top-style: dotted;
+}
+.georgia{
+  font-family: Georgia, serif;
+}
+.main-heading {
+    color: red;
+}
+h1 {
+    color: red;
+}/*Specificity*/
+body {
+    color: brown;
+}
+span {
+    color: green;
+}/*Inheritance*/
+
+#mainheading{
+  color:green;
+}
